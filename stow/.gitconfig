@@ -1,0 +1,11 @@
+# Include base config by default
+[include]
+    path = ~/.gitconfigs/.gitconfig-base
+
+# Include personal config by default
+[include]
+    path = ~/.gitconfigs/.gitconfig-personal-work
+
+# Override with office work gitconfig for work repos
+# [includeIf "hasconfig:remote.*.url:git@github.com:<WORK_GITHUB>/*"]
+    # path = ~/.gitconfigs/.gitconfig-office-work
