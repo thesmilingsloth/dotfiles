@@ -104,6 +104,10 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# Source aliases
+[ -f ~/.alias.sh ] &&
+  source ~/.alias.sh
+
 # Source device specific environment variables
 [ -f ~/.zsh_device_config ] &&
   source ~/.zsh_device_config

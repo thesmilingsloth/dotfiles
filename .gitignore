@@ -1,5 +1,8 @@
 .vscode
 
-.DS_Store
+# .DS_Store
 
 Brewfile.lock.json
+
+# stow
+stow/.zsh_device_config

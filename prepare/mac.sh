@@ -179,7 +179,13 @@ function clone_dotfiles {
   echo "📦 Cloning dotfiles..."
   echo
 
-  if [ -d $HOME/DO_NOT_DELETE/dotfiles ]; then
+  if [ ! -d $HOME/Documents/00-Device/00-Configuration ]; then
+    echo "❌ dotfiles directory not found. Creating..."
+    
+    mkdir -p $HOME/Documents/00-Device/00-Configuration
+  fi
+
+  if [ -d $HOME/Documents/00-Device/00-Configuration/dotfiles ]; then
     echo "❌ dotfiles directory already exists. Exiting..."
     exit 1
   else
