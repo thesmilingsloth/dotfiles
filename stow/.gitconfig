@@ -7,5 +7,5 @@
     path = ~/.gitconfigs/.gitconfig-personal-work
 
 # Override with office work gitconfig for work repos
-# [includeIf "hasconfig:remote.*.url:git@github.com:<WORK_GITHUB>/*"]
+# [includeIf "hasconfig:remote.*.url:git@github.com:<WORK_IDENTIFIER>/*"]
     # path = ~/.gitconfigs/.gitconfig-office-work

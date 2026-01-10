@@ -1,8 +1,13 @@
 .vscode
 
-# .DS_Store
+.DS_Store
 
 Brewfile.lock.json
 
-# stow
-stow/.zsh_device_config
+# individual device config files
+./stow/.zsh_device_config
+
+# git config files
+./stow/.ssh/config
+./stow/.gitconfigs/.gitconfig-office-work
+./stow/.gitconfigs/.gitconfig-personal-work
